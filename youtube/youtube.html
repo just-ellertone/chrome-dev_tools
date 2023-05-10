@@ -13,11 +13,7 @@
             margin-top:0;
         }
         .thumbnail{
-            width : 300px; 
-            display:block;
-            margin-top:10px;
-            margin-bottom: 10px;
-          
+            width:100%;   
         }
         .video-title{
             font-size: 15px;
@@ -41,29 +37,32 @@
             margin-bottom: 5px;
         }
         
-       .video-preview{
-        display: inline-block;
-        width: 300px;
-        vertical-align: top;
-        margin-right:15px;
-
-       }
+     
+      
        .channel-pic{
         width:80%;
         border-radius: 50%;
         
        }
       
-       .channel{
-        display:inline-block;
-        width: 50px;
-        vertical-align: top;
+       .channel-picture{
+       
         margin-top: 15px;
       }
       
-      .video-info {
-        display:inline-block;
-        width:200px;
+     
+      .general-info{
+        display:grid;
+        grid-template-columns:50px 1fr;
+      
+      }
+
+      .video-grid{
+        display:grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        column-gap:20px;
+        row-gap:40px;
+
       }
     
 
@@ -73,40 +72,157 @@
     <body> 
         <input class="search-bar" type="text" placeholder="Search">
 
-        <div class="video-preview">
-            <div class="general-picture">
-                <img class="thumbnail" src="thumbnails/thumbnail-1.webp">
-            </div>
-            <div class="general-info">
-                <div class="channel">
-                    <img class="channel-pic" src="thumbnails/channel-1.jpeg">
+        <div class="video-grid">
+            <div class="video-preview">
+                <div class="general-picture">
+                    <img class="thumbnail" src="thumbnails/thumbnail-1.webp">
                 </div>
+                <div class="general-info">
+                    <div class="channel-picture">
+                        <img class="channel-pic" src="thumbnails/channel-1.jpeg">
+                    </div>
+                   
+                    <div class="video-info"> 
+                        <p class="video-title">
+                        <strong>Talking Tech and AI with Google CEO Sundar Pichai!</strong>
+                        </p>
+            
+                        <p class="video-author"> Marques Brownlee </p>
+                    
+                        <p class="video-stats">3.4M views &#183 6 months ago</p>
+                    </div>
                
-                <div class="video-info"> 
-                    <p class="video-title">
-                    <strong>Talking Tech and AI with Google CEO Sundar Pichai!</strong>
-                    </p>
-        
-                    <p class="video-author"> Marques Brownlee </p>
+                 </div>
                 
-                    <p class="video-stats">3.4M views &#183 6 months ago</p>
-                </div>
-           
-             </div>
-            
-           
-            
-        </div>
+               
+                
+            </div>
+        
+                
     
-        <div class="video-preview">
-            <img class="thumbnail" src="thumbnails/thumbnail-2.webp">
-           
-            <p class="video-title">
-                <strong>Try not to laugh Challenge #9</strong>
-            </p>
-            <p class="video-author"> Markiplier</p>
-            <p class="video-stats">19M views &#183 4 years ago</p>
+            <div class="video-preview">
+                <div class="general-picture">
+                    <img class="thumbnail" src="thumbnails/thumbnail-2.webp">
+                </div>
+                
+                <div class="general-info" >
+                    <div class="channel-picture">
+                        <img class="channel-pic" src="thumbnails/channel-2.jpeg">
+                    </div>
+    
+                    <div class="video-info">
+                        <p class="video-title">
+                            <strong>Try not to laugh Challenge #9</strong>
+                        </p>
+                        <p class="video-author"> Markiplier</p>
+                        <p class="video-stats">19M views &#183 4 years ago</p>
+                    </div>
+                    
+                </div>
+                
+            </div>
+    
+            <div class="video-preview">
+                <div class="general-picture">
+                    <img class="thumbnail" src="thumbnails/thumbnail-3.webp">
+                </div>
+                <div class="general-info">
+                    <div class="channel-picture">
+                        <img class="channel-pic" src="thumbnails/channel-3.jpeg">
+                    </div>
+                   
+                    <div class="video-info"> 
+                        <p class="video-title">
+                        <strong>Talking Tech and AI with Google CEO Sundar Pichai!</strong>
+                        </p>
+            
+                        <p class="video-author"> Marques Brownlee </p>
+                    
+                        <p class="video-stats">3.4M views &#183 6 months ago</p>
+                    </div>
+               
+                 </div>
+                
+               
+                
+            </div>
+        
+                
+    
+            <div class="video-preview">
+                <div class="general-picture">
+                    <img class="thumbnail" src="thumbnails/thumbnail-4.webp">
+                </div>
+                
+                <div class="general-info" >
+                    <div class="channel-picture">
+                        <img class="channel-pic" src="thumbnails/channel-4.jpeg">
+                    </div>
+    
+                    <div class="video-info">
+                        <p class="video-title">
+                            <strong>Try not to laugh Challenge #9</strong>
+                        </p>
+                        <p class="video-author"> Markiplier</p>
+                        <p class="video-stats">19M views &#183 4 years ago</p>
+                    </div>
+                    
+                </div>
+                
+            </div>
+            <div class="video-preview">
+                <div class="general-picture">
+                    <img class="thumbnail" src="thumbnails/thumbnail-5.webp">
+                </div>
+                <div class="general-info">
+                    <div class="channel-picture">
+                        <img class="channel-pic" src="thumbnails/channel-5.jpeg">
+                    </div>
+                   
+                    <div class="video-info"> 
+                        <p class="video-title">
+                        <strong>Talking Tech and AI with Google CEO Sundar Pichai!</strong>
+                        </p>
+            
+                        <p class="video-author"> Marques Brownlee </p>
+                    
+                        <p class="video-stats">3.4M views &#183 6 months ago</p>
+                    </div>
+               
+                 </div>
+                
+               
+                
+            </div>
+        
+                
+    
+            <div class="video-preview">
+                <div class="general-picture">
+                    <img class="thumbnail" src="thumbnails/thumbnail-6.webp">
+                </div>
+                
+                <div class="general-info" >
+                    <div class="channel-picture">
+                        <img class="channel-pic" src="thumbnails/channel-6.jpeg">
+                    </div>
+    
+                    <div class="video-info">
+                        <p class="video-title">
+                            <strong>Try not to laugh Challenge #9</strong>
+                        </p>
+                        <p class="video-author"> Markiplier</p>
+                        <p class="video-stats">19M views &#183 4 years ago</p>
+                    </div>
+                    
+                </div>
+                
+            </div>
+        
+
         </div>
+
+        
     
     </body>
 </html>
